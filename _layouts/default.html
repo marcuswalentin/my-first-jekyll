@@ -3,19 +3,19 @@
 <head>
     <meta charset="utf-8">
     <title>my first jekyll</title>
+    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 
 </head>
 <body>
     <header>
         <h1>My first jekyll</h1>
-        <nav>
-            <ul>
-                <li><a href="{{site.baseurl}}/index.html">home</a></li>
-                <li><a href="{{site.baseurl}}/news.html">news</a></li>
-            </ul>
-        </nav>
+        {% include nav.html navclass='nav-top' %}
     </header>
+
 {{content}}
 
+    <footer>
+        {% include nav.html navclass='nav-bottom' %}
+    </footer>
 </body>
 </html>
