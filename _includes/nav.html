@@ -1,8 +1,8 @@
 <nav>
     <ul class="nav {{include.navclass}}">
-
         <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">footer-hem</a></li>
         <li><a href="{{site.baseurl}}/index.html">footer-hem</a></li>
-        <li><a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %}current{% endif %}">footer-news</a></li>
+            <!-- nu har jag lagt till en or så om urlen innehåller news så använder den css-koden current --> 
+        <li><a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news' %}current{% endif %}">footer-news</a></li>
     </ul>
 </nav>
