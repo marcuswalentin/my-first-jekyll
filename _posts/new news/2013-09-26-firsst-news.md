@@ -1,9 +1,10 @@
 ---
-layout: news
+layout: news-article
 title: My first news title
 meta: this is pretty slick
-source: www.space.com/34994-brightest-supernova-shredded-by-black-hole.html
-category: new-news
+source: http://www.space.com/34994-brightest-supernova-shredded-by-black-hole.html
+category: news
+subcategory: new-news
 ---
 
 

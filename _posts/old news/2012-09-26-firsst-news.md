@@ -1,9 +1,10 @@
 ---
-layout: news
+layout: news-article
 title: the second oldest news article
 meta: this is the second oldest news article ive been writing
-source: www.space.com/34994-brightest-supernova-shredded-by-black-hole.html
-category: old-news
+source: http://www.space.com/34994-brightest-supernova-shredded-by-black-hole.html
+category: news
+subcategory: old-news
 ---
 
 

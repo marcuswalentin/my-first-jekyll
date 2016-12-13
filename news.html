@@ -6,11 +6,11 @@ layout: news
 <h1>news</h1>
 
 <ul>
-    <!-- for loop to show post titles and the meta from the category new news with a limit of 1 post-->
-    {% for news in site.categories.new-news limit:1 %}
+    <!-- for loop to show post titles and the meta from the category news-->
+    {% for news in site.categories.news %}
         <li>
             <!-- grabbing the title and putting it as a link from everything with layout news -->
-            <a href="">{{news.title}}</a>
+            <a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
             <p>{{news.meta}}</p>
         </li>
     {% endfor %}
