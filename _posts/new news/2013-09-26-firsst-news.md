@@ -1,9 +1,9 @@
 ---
 layout: news
 title: My first news title
-meta: this is a news title in my first jekyll page
+meta: this is pretty slick
 source: www.space.com/34994-brightest-supernova-shredded-by-black-hole.html
-category: news
+category: new-news
 ---
 
 
