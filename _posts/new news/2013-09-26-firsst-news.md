@@ -5,6 +5,7 @@ meta: this is pretty slick
 source: http://www.space.com/34994-brightest-supernova-shredded-by-black-hole.html
 category: news
 subcategory: new-news
+permalink: den första nyheten
 ---
 
 
