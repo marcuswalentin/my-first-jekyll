@@ -2,7 +2,7 @@
 layout: news-article
 title: My second news title
 meta: this is a pretty fresh one
-source: www.space.com/34994-brightest-supernova-shredded-by-black-hole.html
+source: http://www.space.com/34994-brightest-supernova-shredded-by-black-hole.html
 category: news
 subcategory: new-news
 ---
